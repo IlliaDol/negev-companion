@@ -42,8 +42,8 @@ chat with Negev in Telegram.
 Use either method. A GitHub clone is convenient for updates:
 
 ```powershell
-git clone https://github.com/IlliaDol/negev-chan.git negev-chan
-Set-Location .\negev-chan
+git clone https://github.com/IlliaDol/negev-companion.git negev-companion
+Set-Location .\negev-companion
 ```
 
 If you downloaded a ZIP instead, extract it to a folder you own and open that
@@ -629,7 +629,7 @@ destination repository that you created on GitHub:
 
 ```powershell
 git commit -m "Prepare Negev public starter project"
-git remote add origin https://github.com/IlliaDol/negev-chan.git
+git remote add origin https://github.com/IlliaDol/negev-companion.git
 git push -u origin main
 ```
 
