@@ -1,0 +1,18 @@
+{
+  "name": "negev-chan-telegram-companion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private, single-user Telegram companion with DeepSeek, local media transcription, memory, sleep, and restart-safe 24/7 operation.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "check": "node scripts/check.js",
+    "test": "node selftest.js",
+    "public-audit": "node scripts/public-audit.js",
+    "verify": "npm run check && npm test && npm run public-audit",
+    "console": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\negev-console.ps1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
