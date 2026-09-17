@@ -42,15 +42,15 @@ chat with Negev in Telegram.
 Use either method. A GitHub clone is convenient for updates:
 
 ```powershell
-git clone https://github.com/IlliaDol/negev-companion.git negev-companion
-Set-Location .\negev-companion
+git clone https://github.com/IlliaDol/local-waifu-companion.git local-waifu-companion
+Set-Location .\local-waifu-companion
 ```
 
 If you downloaded a ZIP instead, extract it to a folder you own and open that
 folder in PowerShell:
 
 ```powershell
-Set-Location "C:\path\to\negev-companion"
+Set-Location "C:\path\to\local-waifu-companion"
 ```
 
 Do not copy `.env`, `persona.local.json`, `data`, `logs`, `tmp`, `outputs`,
@@ -629,7 +629,7 @@ destination repository that you created on GitHub:
 
 ```powershell
 git commit -m "Prepare Negev public starter project"
-git remote add origin https://github.com/IlliaDol/negev-companion.git
+git remote add origin https://github.com/IlliaDol/local-waifu-companion.git
 git push -u origin main
 ```
 
