@@ -50,7 +50,7 @@ If you downloaded a ZIP instead, extract it to a folder you own and open that
 folder in PowerShell:
 
 ```powershell
-Set-Location "C:\path\to\negev-chan"
+Set-Location "C:\path\to\negev-companion"
 ```
 
 Do not copy `.env`, `persona.local.json`, `data`, `logs`, `tmp`, `outputs`,
